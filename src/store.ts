@@ -1,5 +1,5 @@
-import { reactive } from 'vue'
+// import { reactive } from 'vue'
 
-export const globalState = reactive({
-  count: 0,
-})
+// export const globalState = reactive({
+//   count: 0,
+// })
