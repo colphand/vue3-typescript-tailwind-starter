@@ -1,7 +1,15 @@
 <template>
-  <div>
-    <Header />
-  </div>
+    <Header>
+      <template #eyebrow>
+        Here might be a page title
+      </template>
+      <template #header>
+        Here might be a page title
+      </template>
+      <template #subtitle>
+        Here might be a page title
+      </template>
+    </Header>
 </template>
 
 <script lang="ts">

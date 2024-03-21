@@ -1,7 +1,7 @@
 <template>
   <div>
-    <LogoCloud />
-  </div>
+  <LogoCloud />
+</div>
 </template>
 
 <script lang="ts">

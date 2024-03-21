@@ -1,11 +1,18 @@
 <template>
-      <router-view />
+  <div>
+    <!-- add Header here -->
+  <router-view />
+  <Footer />
+  </div> 
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Footer from './components/Footer.vue'
 
 export default defineComponent({
-  components: {},
+  components: {
+    Footer,
+  },
 })
 </script>
