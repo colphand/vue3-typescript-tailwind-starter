@@ -24,6 +24,7 @@
         </div>
       </div>
     </div>
+    <QuoteLarge />
     <Stats>
       <template #header>
         Email reigns, yet 74% say it’s time for an internal comms upgrade
@@ -32,23 +33,29 @@
         Experience the ContactMonkey effect!
       </template>
     </Stats> 
+    <CTA />
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
+import { Icon } from '@iconify/vue'
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/vue/24/outline'
 import Hero from '../components/Hero.vue'
 import LogoCloud from '../components/LogoCloud.vue'
-import QuotesTwo from '../components/QuotesTwo.vue'
+import QuoteLarge from '../components/QuoteLarge.vue'
 import Stats from '../components/Stats.vue'
+import CTA from '../components/CTA.vue'
+
 
 export default defineComponent({
   components: {
+    Icon,
     Hero,
     LogoCloud,
-    QuotesTwo,
+    QuoteLarge,
     Stats,
+    CTA,
   },
 })
 </script>

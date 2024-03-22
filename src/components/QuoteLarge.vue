@@ -10,15 +10,15 @@
             <use href="#b56e9dab-6ccb-4d32-ad02-6b4bb5d9bbeb" x="86" />
           </svg>
           <blockquote class="text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
-            <p>Commodo amet fugiat excepteur sunt qui ea elit cupidatat ullamco consectetur ipsum elit consequat. Elit sunt proident ea nulla ad nulla dolore ad pariatur tempor non. Sint veniam minim et ea.</p>
+            <p>“The entire platform is very intuitive to use and works seamlessly with Outlook. Combine that with terrific customer service, and it’s a real winner.”</p>
           </blockquote>
         </div>
         <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
           <img class="rounded-xl bg-indigo-50 lg:rounded-3xl" src="https://source.unsplash.com/random/?face,person" alt="" />
         </div>
         <figcaption class="text-base lg:col-start-1 lg:row-start-3">
-          <div class="font-semibold text-gray-900">Judith Black</div>
-          <div class="mt-1 text-gray-500">CEO of Workcation</div>
+          <div class="font-semibold text-gray-900">Torin Roher</div>
+          <div class="mt-1 text-gray-500">Corporate Communications Specialist, NAES</div>
         </figcaption>
       </figure>
     </div>
