@@ -1,8 +1,10 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <!-- add Header here -->
+    <main class="flex-1">
   <router-view />
-  <Footer />
+  </main>
+  <Footer class="mt-auto flex-shrink-0 w-full pt-12" />
   </div> 
 </template>
 
